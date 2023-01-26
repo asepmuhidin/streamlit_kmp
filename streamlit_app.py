@@ -1,6 +1,13 @@
 import streamlit as st  
 from streamlit_option_menu import option_menu
 
+# --- PATH SETTINGS ---
+THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+ASSETS_DIR = THIS_DIR / "assets"
+STYLES_DIR = THIS_DIR / "styles"
+CSS_FILE = STYLES_DIR / "main.css"
+
+
 def sidebar():
     with st.sidebar:
         selected = option_menu("Main Menu", ["Home", 'Settings'], 
