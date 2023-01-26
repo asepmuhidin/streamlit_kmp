@@ -29,7 +29,4 @@ st.set_page_config(
 )
 #load_css_file(CSS_FILE)
 
-
-# --- SIDEBAR SECTION ---
-with st.sidebar:
-    selected = option_menu("Main Menu", ["Home", 'Settings'],icons=['house', 'gear'], menu_icon="cast", default_index=1)
+st.head("Welcome")
