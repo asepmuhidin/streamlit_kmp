@@ -2,8 +2,9 @@
 /* Adapted from Zachary Blackwood */
 [data-testid="stSidebar"] {
   background-image: url(https://raw.githubusercontent.com/asepmuhidin/streamlit_kmp/main/assets/logo.png);
-  background-size: 100%;
+  background-size: 200px;
   background-repeat: no-repeat;
+  background-position:center top;
  }
 .button, .button:link, .button:visited {
   font-size: 20px;
