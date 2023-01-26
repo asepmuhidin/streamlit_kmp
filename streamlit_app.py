@@ -9,9 +9,8 @@ def sidebar():
 def setting_page():
     st.set_page_config(
         page_title="KMP",
-        page_icon=":u5272:",
-        layout="centered",
-        initial_sidebar_state="collapsed"
+        page_icon=":metro:",
+        layout="centered"
     )
     
 def main():
