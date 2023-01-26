@@ -15,7 +15,7 @@ def load_css_file(css_file_path):
     
 def sidebar():
     with st.sidebar:
-        selected = option_menu(NONE, ["Home", 'Settings'], 
+        selected = option_menu("Menu", ["Home", 'Settings'], 
             icons=['house', 'gear'], menu_icon="cast", default_index=1)
         
 def setting_page():
