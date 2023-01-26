@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 # --- PATH SETTINGS ---
 THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 ASSETS_DIR = THIS_DIR / "assets"
-STYLES_DIR = THIS_DIR / "styles"
+STYLES_DIR = THIS_DIR / "styless"
 CSS_FILE = STYLES_DIR / "main.css"
 
 def load_css_file(css_file_path):
@@ -28,7 +28,6 @@ def main():
     load_css_file(CSS_FILE)
     setting_page()
     st.title("Welcome")
-    st.write(CSS_FILE)
     sidebar()
     
 if __name__=='__main__' :
