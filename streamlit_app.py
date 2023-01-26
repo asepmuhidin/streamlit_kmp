@@ -26,9 +26,9 @@ def setting_page():
     
 def main():
     #load_css_file(CSS_FILE)
-    st.write(CSS_FILE)
     setting_page()
     st.title("Welcome")
+    st.write(CSS_FILE)
     sidebar()
     
 if __name__=='__main__' :
