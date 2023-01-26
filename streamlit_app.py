@@ -25,7 +25,7 @@ st.set_page_config(
     page_title=PRODUCT_NAME,
     page_icon=":u5272:",
     layout="centered",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="collapsed"
 )
 load_css_file(CSS_FILE)
 
