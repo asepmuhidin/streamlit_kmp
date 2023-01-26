@@ -11,8 +11,7 @@ CSS_FILE = STYLES_DIR / "style.css"
 
 def load_css_file(css_file_path):
     with open(css_file_path) as f:
-        return "ok"
-        #return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
     
 def sidebar():
     with st.sidebar:
@@ -26,7 +25,8 @@ def setting_page():
     )
     
 def main():
-    load_css_file(CSS_FILE)
+    #load_css_file(CSS_FILE)
+    st.write(CSS_FILE)
     setting_page()
     st.title("Welcome")
     sidebar()
