@@ -4,7 +4,7 @@
   background-image: url(https://raw.githubusercontent.com/asepmuhidin/streamlit_kmp/main/assets/logo.png);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: 20px auto;
+  background-position: 40px 0 0 60px;
  }
 .button, .button:link, .button:visited {
   font-size: 20px;
