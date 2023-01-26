@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 ASSETS_DIR = THIS_DIR / "assets"
 STYLES_DIR = THIS_DIR / "styles"
-CSS_FILE = STYLES_DIR / "main.css"
+CSS_FILE = STYLES_DIR / "style.css"
 
 def load_css_file(css_file_path):
     with open(css_file_path) as f:
